@@ -1,6 +1,9 @@
 {
   "name": "erp-fullstack",
   "version": "1.0.0",
+  "overrides": {
+  "@rollup/rollup-linux-x64-gnu": "npm:@rollup/rollup-linux-x64-gnu@latest"
+},
   "description": "Sistema ERP Full Stack - React + Express + Supabase",
   "type": "module",
   "scripts": {
@@ -11,7 +14,6 @@
     "dev:backend:watch": "cd backend && npx nodemon src/index.js"
   },
   "dependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.60.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
